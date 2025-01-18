@@ -1,0 +1,23 @@
+{
+  "title": "Topic & Curriculum Generator",
+  "purpose": "Provide a curriculum or learning plan for prerequisites and key concepts related to a paper or chosen topic.",
+  "functional_requirements": [
+    "Decompose paper content into foundational topics or concepts.",
+    "Allow user to indicate known topics to tailor the curriculum.",
+    "Generate quizzes or interactive checkpoints."
+  ],
+  "components": [
+    {
+      "name": "Topic Extraction",
+      "description": "Identifies the domain areas and subtopics from the text."
+    },
+    {
+      "name": "Curriculum Builder",
+      "description": "Structures these topics into a learning sequence or modules."
+    },
+    {
+      "name": "Interactive Quiz Engine",
+      "description": "Optionally generates questions for user knowledge checks."
+    }
+  ]
+}

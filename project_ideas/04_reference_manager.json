@@ -1,0 +1,23 @@
+{
+  "title": "Reference Manager & Search",
+  "purpose": "Store and manage references, notes, and user-generated data.",
+  "functional_requirements": [
+    "Provide an internal database of papers, references, and user notes.",
+    "Allow searching by keywords, tags, or paper metadata.",
+    "Let users attach personal annotations or highlights."
+  ],
+  "components": [
+    {
+      "name": "Database Schema",
+      "description": "Tables/collections to store references and user notes."
+    },
+    {
+      "name": "Search Interface",
+      "description": "Indexes references for quick retrieval."
+    },
+    {
+      "name": "Annotation Service",
+      "description": "Saves highlights or comments associated with each reference."
+    }
+  ]
+}

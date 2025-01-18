@@ -1,0 +1,23 @@
+{
+    "title": "Document Ingestion & Parsing",
+    "purpose": "Handle the upload and extraction of text from PDFs, raw text files.",
+    "functional_requirements": [
+        "Integration with a existing open-source parsing libraries (e.g., PyPDF2).",
+        "Extract metadata (title, authors, publication info).",
+        "Convert text into a clean, structured format for downstream tasks."
+    ],
+    "components": [
+        {
+            "name": "Upload Service",
+            "description": "Receives file uploads from users."
+        },
+        {
+            "name": "Parsing Engine",
+            "description": "Uses libraries to read and parse; outputs JSON of structured text."
+        },
+        {
+            "name": "Storage Interface",
+            "description": "Saves extracted text and metadata for future use."
+        }
+    ]
+}
