@@ -1,3 +1,5 @@
 venv
 .env
 projects
+uv.lock
+dist
