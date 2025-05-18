@@ -1,0 +1,23 @@
+{
+    "title": "Recursive Descent Disassembler",
+    "purpose": "Use recursive descent to disassmble an ELF binary file.",
+    "functional_requirements": [
+        "Use the Capstone library to decode single instructions.",
+        "Keep a stack of offsets to be visited.",
+        "Try to resolve control flow to discover and disassemble all of the code."
+    ],
+    "components": [
+        {
+            "name": "File loader and header parser",
+            "description": "Reads in a file specified on the command line and uses pyelf to parse the header."
+        },
+        {
+            "name": "Disassembler",
+            "description": "Disassembles instructions one at a time, following control flow."
+        },
+        {
+            "name": "Display Disassembly",
+            "description": "Sorts the discovered instructions by offset and pretty prints them for the user."
+        }
+    ]
+}
