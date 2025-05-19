@@ -1,3 +1,5 @@
+jupyter
+ipykernel
 python-dotenv
 openai
 mdformat
